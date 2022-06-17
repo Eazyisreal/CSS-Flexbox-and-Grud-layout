@@ -41,14 +41,13 @@ main {
   padding: 30px;
   margin: 5px;
   grid-template-areas:
-     'a a b'
-    ' c d d'
-    ' c e e';
+    "a a b"
+    " c d d"
+    " c e e";
   width: auto;
   height: 50vh;
   grid-template-columns: 220px 150px 210px;
   grid-template-rows: 180px 90px 120px;
-  
 }
 .item-a {
   background-color: red;
@@ -67,6 +66,6 @@ main {
   grid-area: d;
 }
 .item-e {
-    background-color: rgb(9, 9, 143);
-    grid-area: e;
-  }
+  background-color: rgb(9, 9, 143);
+  grid-area: e;
+}
