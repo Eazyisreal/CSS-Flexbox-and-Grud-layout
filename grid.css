@@ -44,7 +44,7 @@ main {
     "a a b"
     " c d d"
     " c e e";
-  width: 40%;
+  width: 50%;
   height: 50vh;
   grid-template-columns: 220px 150px 210px;
   grid-template-rows: 180px 90px 120px;
