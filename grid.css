@@ -39,12 +39,12 @@ main div {
 main {
   display: grid;
   padding: 30px;
-  margin: 5px;
+  margin: auto;
   grid-template-areas:
     "a a b"
     " c d d"
     " c e e";
-  width: auto;
+  width: 40%;
   height: 50vh;
   grid-template-columns: 220px 150px 210px;
   grid-template-rows: 180px 90px 120px;
